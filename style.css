@@ -1,3 +1,9 @@
 .navbar {
   display: flex;
 }
+
+.nav-item {
+  display: flex;
+  list-style: none;
+  list-style-position: inside;
+}
