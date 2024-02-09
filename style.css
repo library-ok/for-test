@@ -1,3 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
 .navbar {
   display: flex;
 }
@@ -6,4 +13,7 @@
   display: flex;
   list-style: none;
   list-style-position: inside;
+  font-weight: 500;
+  font-size: 2rem;
+  gap: 3rem;
 }
