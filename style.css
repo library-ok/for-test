@@ -11,6 +11,7 @@
   align-items: center;
   max-width: 1280px;
   margin: auto;
+  height: 3rem;
 }
 
 .nav-item {
@@ -19,6 +20,14 @@
   list-style: none;
   list-style-position: inside;
   font-weight: 500;
-  font-size: 2rem;
-  gap: 3rem;
+  font-size: 1rem;
+  gap: 2rem;
+}
+
+.nav-item li {
+  padding: 1rem 2rem;
+}
+
+.nav-item li:hover {
+  background: #46eefa;
 }
