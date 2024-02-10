@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="auth.css" />
   </head>
   <body>
     <!--navbar-->
@@ -20,9 +22,38 @@
         </ul>
       </div>
     </section>
-    <!--login-->
-    <section class="contianer">
-      <section>test</section>
+    <!--login and logup-->
+    <section class="contianer flex-col">
+      <!--login-->
+      <section class="auth-swation">
+        <p>login</p>
+        <p>logup</p>
+      </section>
+      <section id="login">
+        <form action="" class="auth-form">
+          <section>
+            <p>Login</p>
+          </section>
+          <section>
+            <input type="text" name="username" placeholder="username" />
+            <input type="password" name="password" placeholder="password" />
+            <section>test</section>
+          </section>
+        </form>
+      </section>
+      <!--logup-->
+      <section id="logup">
+        <form action="" class="auth-form">
+          <section>
+            <p>Logup</p>
+          </section>
+          <section>
+            <input type="text" name="username" placeholder="username" />
+            <input type="password" name="password" placeholder="password" />
+            <section>test</section>
+          </section>
+        </form>
+      </section>
     </section>
     <script src="script.js"></script>
   </body>
